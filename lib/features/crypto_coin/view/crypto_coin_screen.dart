@@ -38,7 +38,7 @@ class _CryptoCoinsScreenState extends State<CryptoCoinsScreen> {
                       coin?.imageUrl ?? '',
                       width: 200,
                       height: 200,
-                      errorBuilder: (_, __, ___) =>
+                      errorBuilder: (_, _, _) =>
                           const Icon(Icons.currency_bitcoin),
                     ),
                   ),
